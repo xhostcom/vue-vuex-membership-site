@@ -4,7 +4,7 @@
     <div class="banner">
       <div class="container">
         <h1 class="logo-font"><img src="../assets/img/Logowhite.png" /></h1>
-        <p>A place to get all the good stuff!</p>
+        <p>The place to get all the good stuff!</p>
       </div>
     </div>
 
@@ -93,3 +93,8 @@ export default {
   components: {}
 };
 </script>
+<style scoped>
+.a.nav-link.active {
+  color: rgb(209, 62, 153);
+}
+</style>
