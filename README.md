@@ -1,5 +1,15 @@
 # vue membership site.
 
+Real World Vuex membership site mockup project with Vuex, Bootstrap, Router, Axios, SASS, Tests and quite a few other goodies.
+
+## Author
+
+Paul Anthony McGowan
+
+## Repo
+
+## Demo
+
 # Todo
 
 Finish it off!
