@@ -36,3 +36,22 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: function() {
+    return {
+      password: "",
+      email: ""
+    };
+  },
+  methods: {
+    login() {
+      this.$store.despatch("users/loginUser", {
+        email: this.email,
+        password: this.password
+      });
+    }
+  }
+};
+</script>
